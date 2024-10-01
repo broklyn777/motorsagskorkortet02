@@ -1,0 +1,133 @@
+.
+├── README.md
+├── app
+│   ├── favicon.ico
+│   ├── fonts
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── next-env.d.ts
+├── next.config.mjs
+├── node_modules
+│   ├── @alloc
+│   ├── @isaacs
+│   ├── @jridgewell
+│   ├── @next
+│   ├── @nodelib
+│   ├── @pkgjs
+│   ├── @swc
+│   ├── @types
+│   ├── ansi-regex
+│   ├── ansi-styles
+│   ├── any-promise
+│   ├── anymatch
+│   ├── arg
+│   ├── balanced-match
+│   ├── binary-extensions
+│   ├── brace-expansion
+│   ├── braces
+│   ├── busboy
+│   ├── camelcase-css
+│   ├── caniuse-lite
+│   ├── chokidar
+│   ├── client-only
+│   ├── color-convert
+│   ├── color-name
+│   ├── commander
+│   ├── cross-spawn
+│   ├── cssesc
+│   ├── csstype
+│   ├── didyoumean
+│   ├── dlv
+│   ├── eastasianwidth
+│   ├── emoji-regex
+│   ├── fast-glob
+│   ├── fastq
+│   ├── fill-range
+│   ├── foreground-child
+│   ├── function-bind
+│   ├── glob
+│   ├── glob-parent
+│   ├── graceful-fs
+│   ├── hasown
+│   ├── is-binary-path
+│   ├── is-core-module
+│   ├── is-extglob
+│   ├── is-fullwidth-code-point
+│   ├── is-glob
+│   ├── is-number
+│   ├── isexe
+│   ├── jackspeak
+│   ├── jiti
+│   ├── js-tokens
+│   ├── lilconfig
+│   ├── lines-and-columns
+│   ├── loose-envify
+│   ├── lru-cache
+│   ├── merge2
+│   ├── micromatch
+│   ├── minimatch
+│   ├── minipass
+│   ├── mz
+│   ├── nanoid
+│   ├── next
+│   ├── normalize-path
+│   ├── object-assign
+│   ├── object-hash
+│   ├── package-json-from-dist
+│   ├── path-key
+│   ├── path-parse
+│   ├── path-scurry
+│   ├── picocolors
+│   ├── picomatch
+│   ├── pify
+│   ├── pirates
+│   ├── postcss
+│   ├── postcss-import
+│   ├── postcss-js
+│   ├── postcss-load-config
+│   ├── postcss-nested
+│   ├── postcss-selector-parser
+│   ├── postcss-value-parser
+│   ├── queue-microtask
+│   ├── react
+│   ├── react-dom
+│   ├── read-cache
+│   ├── readdirp
+│   ├── resolve
+│   ├── reusify
+│   ├── run-parallel
+│   ├── scheduler
+│   ├── shebang-command
+│   ├── shebang-regex
+│   ├── signal-exit
+│   ├── source-map-js
+│   ├── streamsearch
+│   ├── string-width
+│   ├── string-width-cjs
+│   ├── strip-ansi
+│   ├── strip-ansi-cjs
+│   ├── styled-jsx
+│   ├── sucrase
+│   ├── supports-preserve-symlinks-flag
+│   ├── tailwindcss
+│   ├── thenify
+│   ├── thenify-all
+│   ├── to-regex-range
+│   ├── ts-interface-checker
+│   ├── tslib
+│   ├── typescript
+│   ├── undici-types
+│   ├── util-deprecate
+│   ├── which
+│   ├── wrap-ansi
+│   ├── wrap-ansi-cjs
+│   └── yaml
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── struktur.txt
+├── tailwind.config.ts
+└── tsconfig.json
+
+118 directories, 13 files
