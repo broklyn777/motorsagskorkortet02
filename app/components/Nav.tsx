@@ -28,7 +28,10 @@ const Nav = () => {
             </Link>
           </li>
           <li>
-            <Link href="/blogg" className="text-white hover:text-safetyOrange">
+            <Link
+              href="/blogg  "
+              className="text-white hover:text-safetyOrange"
+            >
               Blogg
             </Link>
           </li>

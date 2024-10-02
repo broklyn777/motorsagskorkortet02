@@ -20,9 +20,16 @@ export function getSortedPostsData() {
   });
 }
 
-export async function getPostData(slug) {
+// export async function getPostData(slug) {
+//   const fullPath = path.join(postsDirectory, `${slug}.md`);
+//   const fileContents = fs.readFileSync(fullPath, "utf8");
+
+export async function getPostData(slug: string) {
   const fullPath = path.join(postsDirectory, `${slug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
+  // Resten av din kod
+}
+
 
   const matterResult = matter(fileContents);
 
