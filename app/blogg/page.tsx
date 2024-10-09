@@ -61,7 +61,8 @@ export default function Blogg() {
             {post.title}
           </h2>
           <p className="text-gray-600 mb-4">{post.content}</p>
-          <Link href={`/blogg/${post.slug}`}>
+
+          <Link href={`/${post.slug}`}>
             <span className="text-blue-500 hover:underline">Läs mer</span>
           </Link>
         </div>
