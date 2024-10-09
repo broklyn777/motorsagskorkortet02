@@ -1,31 +1,51 @@
-// app/blogg/page.tsx
-import { getSortedPostsData } from "@lib/posts";
+// import posts from "../../posts/posts.json";
 
-export const revalidate = 60;
+// export default function Blogg() {
+//   return (
+//     <div>
+//       {posts.map((post) => (
+//         <div key={post.id}>
+//           <h2>{post.title}</h2>
+//           <p>{post.content}</p>
+//           <p>{post.date}</p>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
 
-export default function BloggPage() {
-  const allPostsData = getSortedPostsData();
+// import posts from "../../posts/posts.json";
 
+// export default function Blogg() {
+//   return (
+//     <div className="max-w-4xl mx-auto p-6">
+//       {posts.map((post) => (
+//         <div key={post.id} className="bg-white shadow-md rounded-lg p-6 mb-6">
+//           <h2 className="text-2xl font-bold mb-2 text-gray-800">
+//             {post.title}
+//           </h2>
+//           <p className="text-gray-600 mb-4">{post.content}</p>
+//           <p className="text-gray-400 text-sm">{post.date}</p>
+//         </div>
+//       ))}
+//     </div>
+//   );
+// }
+
+import posts from "../../posts/posts.json";
+
+export default function Blogg() {
   return (
-    <section className="bg-lightGray py-16">
-      <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-8">Blogg</h1>
-        <ul className="space-y-8">
-          {allPostsData.map(({ slug, title, date }) => (
-            <li
-              key={slug}
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
-            >
-              <a href={`/blogg/${slug}`} className="block">
-                <h2 className="text-2xl font-bold text-gray-800 mb-2">
-                  {title}
-                </h2>
-                <p className="text-gray-500">{date}</p>
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto p-6">
+      {posts.map((post) => (
+        <div key={post.id} className="bg-white shadow-md rounded-lg p-6">
+          <h2 className="text-2xl font-bold mb-2 text-gray-800">
+            {post.title}
+          </h2>
+          <p className="text-gray-600 mb-4">{post.content}</p>
+          <p className="text-gray-400 text-sm">{post.date}</p>
+        </div>
+      ))}
+    </div>
   );
 }
